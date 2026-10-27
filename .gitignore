@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+data/db/*.sqlite3
+data/audio/incoming/*
+data/audio/processed/*
+data/audio/failed/*
+data/logs/*
+!data/audio/incoming/.gitkeep
+!data/audio/processed/.gitkeep
+!data/audio/failed/.gitkeep
+!data/logs/.gitkeep
+
+.DS_Store
